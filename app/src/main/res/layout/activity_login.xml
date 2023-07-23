@@ -54,7 +54,6 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="236dp"
         android:ems="10"
-        android:hint="Số điện thoại:"
         android:inputType="textPersonName"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
