@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvTB"
+        android:layout_width="165dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="123dp"
+        android:text="Bạn cần đăng ký tài khoản"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDN" />
+
+    <Button
+        android:id="@+id/btnDK"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/green"
+        android:text="ĐĂNG KÝ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTB" />
+
+    <Button
+        android:id="@+id/btnDN"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/green"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSDT" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="267dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:hint="Số điện thoại:"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bg_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="56dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

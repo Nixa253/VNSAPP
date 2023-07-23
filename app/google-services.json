@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "851042558082",
+    "firebase_url": "https://vinasunapp-3ebad-default-rtdb.firebaseio.com",
+    "project_id": "vinasunapp-3ebad",
+    "storage_bucket": "vinasunapp-3ebad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851042558082:android:34348cedfcd99a6939d49b",
+        "android_client_info": {
+          "package_name": "edu.huflit.vinasunapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851042558082-kg1rm3veodcldpu1u02qn39ffu7jr3ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Ydvosub42QzCDdEN0-HCbNWmisqzbAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851042558082-kg1rm3veodcldpu1u02qn39ffu7jr3ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851042558082:android:00dd3461833f0a3c39d49b",
+        "android_client_info": {
+          "package_name": "edu.huflit.vnsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851042558082-kg1rm3veodcldpu1u02qn39ffu7jr3ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Ydvosub42QzCDdEN0-HCbNWmisqzbAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851042558082-kg1rm3veodcldpu1u02qn39ffu7jr3ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
