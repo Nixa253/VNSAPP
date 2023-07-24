@@ -20,16 +20,17 @@
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvRecend"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
+            android:textSize="40dp"
             android:text="Recend" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnXN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Xac nhan" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
