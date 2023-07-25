@@ -44,30 +44,33 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/tv_fav"
+        android:id="@+id/tv_add_fav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:text="THÊM MỚI"
         android:textSize="16dp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="677dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/_dynamic" />
 
     <TextView
-        android:id="@+id/tv_fav"
+        android:id="@+id/tv_des_fav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Thêm địa điểm yêu thích"
         android:textSize="12dp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="696dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/tv_add_fav" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="56dp"
         android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
         android:background="@drawable/custom_input_no_stroke"
-        app:srcCompat="@drawable/ic_add_circle"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="677dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_dynamic"
+        app:srcCompat="@drawable/ic_add_circle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
