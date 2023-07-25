@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -51,8 +52,8 @@ public class OTPActivity extends AppCompatActivity {
         mbtnXN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String strOtp = medtCode.getText().toString().trim();
-                onClickSendOtpCode(strOtp);
+                    String strOtp = medtCode.getText().toString().trim();
+                    onClickSendOtpCode(strOtp);
             }
         });
 
@@ -120,7 +121,7 @@ public class OTPActivity extends AppCompatActivity {
                         }else {
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             if(task.getException() instanceof FirebaseAuthInvalidCredentialsException){
-                                Toast.makeText(OTPActivity.this, "The verification code entered was invalid", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(OTPActivity.this, "Mã OTP không đúng", Toast.LENGTH_SHORT).show();
 
                             }
                         }

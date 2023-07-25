@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtSdtDK"
         android:layout_width="262dp"
         android:layout_height="42dp"
         android:layout_marginStart="100dp"
@@ -15,6 +15,7 @@
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/ic_phone"
         android:drawablePadding="12dp"
+        android:text="+84"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,10 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/edtHoTen" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtHoTen"
         android:layout_width="262dp"
         android:layout_height="42dp"
         android:layout_marginStart="100dp"
@@ -66,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtEmail"
         android:layout_width="262dp"
         android:layout_height="42dp"
         android:layout_marginStart="100dp"
@@ -93,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.867"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtSdtDK" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -116,7 +117,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDKTK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
@@ -135,6 +136,6 @@
         android:layout_marginTop="32dp"
         android:text="Mã xác nhận sẽ được gửi qua số di động của quý khách."
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
