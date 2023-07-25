@@ -39,6 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
         medtEmail = findViewById(R.id.edtEmail);
         medtHoTen = findViewById(R.id.edtHoTen);
         medtSDT = findViewById(R.id.edtSdtDK);
+        mAuth = FirebaseAuth.getInstance();
 
         setTitleToolbar();
 
@@ -110,13 +111,13 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void goToMainActivity(String phoneNumber) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         intent.putExtra("phone_number", phoneNumber);
         startActivity(intent);
 
     }
     private void goToOTPActivity(String strPhoneNumber, String verificationId) {
-        Intent intent = new Intent(this, OTPActivity.class);
+        Intent intent = new Intent(this, MaXacNhan.class);
         intent.putExtra("phone_number", strPhoneNumber);
         intent.putExtra("verification_id", verificationId);
         startActivity(intent);

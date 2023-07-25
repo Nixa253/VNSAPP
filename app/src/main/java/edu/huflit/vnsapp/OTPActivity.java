@@ -129,7 +129,7 @@ public class OTPActivity extends AppCompatActivity {
                 });
     }
     private void goToMainActivity(String phoneNumber) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TrangChinh.class);
         intent.putExtra("phone_number", phoneNumber);
         startActivity(intent);
 

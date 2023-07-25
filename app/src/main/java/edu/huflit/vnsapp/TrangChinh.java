@@ -3,6 +3,7 @@ package edu.huflit.vnsapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class TrangChinh extends AppCompatActivity {
 
@@ -10,5 +11,18 @@ public class TrangChinh extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trang_chinh);
+
+        setTitleToolbar();
+        //getDataIntent();
     }
+    private void setTitleToolbar(){
+        if (getSupportActionBar()!= null){
+            getSupportActionBar().setTitle("Main Activity");
+        }
+    }
+   /* private void getDataIntent(){
+        String strPhoneNumber = getIntent().getStringExtra("phone_number");
+        TextView mtvInfor = findViewById(R.id.tvInfor);
+        mtvInfor.setText(strPhoneNumber);
+    }*/
 }
