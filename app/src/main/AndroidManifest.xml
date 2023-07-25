@@ -17,6 +17,9 @@
             android:name=".TrangChinh"
             android:exported="false" />
         <activity
+            android:name=".FavoriteLocation"
+            android:exported="false" />
+        <activity
             android:name=".MaXacNhan"
             android:exported="false" />
         <activity
