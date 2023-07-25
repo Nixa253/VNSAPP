@@ -32,7 +32,6 @@
         android:layout_height="45dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="52dp"
-        android:background="33CC33"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:srcCompat="@drawable/ic_back" />
