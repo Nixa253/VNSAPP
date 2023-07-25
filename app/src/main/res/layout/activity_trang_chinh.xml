@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="47dp" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/menu"
         android:layout_width="1000dp"
         android:layout_height="850dp"
         app:layout_constraintStart_toStartOf="parent"
